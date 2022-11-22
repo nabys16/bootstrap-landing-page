@@ -7,10 +7,12 @@
     <title>Document</title>
     <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="fontawesome-free-6.2.1-web/css/all.min.css">
 </head>
 <body>
-    <!--Menu-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<!--Menu-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
               <a class="navbar-brand" href="/practica1.html">
                 <img src="img/sma.jpg" alt="" style="width: 10%">
@@ -32,7 +34,7 @@
                 </ul>
               </div>
             </div>
-        </nav>
+</nav>
 <!--Header-->
 <header class="main-header">
     <div class="text-white py-5 background"><!--padding: py-5/ texto color blanco-->
@@ -44,13 +46,215 @@
                     <a href="#" class="btn btn-outline-secondary btn-lg text-white">Read More</a><!--Boton con clases-->
                 </div>
                 <div class="col-md-6">
-                    <img src="/img/article.jpg" alt="imagen del producto" style="width: 70%" class="d-none image-fluid d-sm-block">
+                    <img src="/img/article.jpg" alt="imagen del producto" style="width: 50%" class="d-none image-fluid d-md-block ">
                 </div>
             </div>
         </div>
     </div>
-
 </header>
+<!--Section-->
+<section class="bg-dark text-white py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <input type="text" class="form-control-lg" placeholder="Enter your Name">
+      </div>
+      <div class="col-md-4">
+        <input type="text" class="form-control-lg" placeholder="Enter your Email">
+      </div>
+      <div class="col-md-4 py-2">
+        <button class="btn btn-primary btn-lg btn-block">Suscribe</button>
+      </div>
+    </div>
+  </div>
+</section>
+<!--Features-->
+<section class="py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="card text-center border-primary">
+          <div class="card-body">
+            <h3>Feature One</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card text-center bg-primary text-white">
+          <div class="card-body">
+            <h3>Feature Two</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card text-center border-primary">
+          <div class="card-body">
+            <h3>Feature Three</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card text-center bg-primary text-white">
+          <div class="card-body">
+            <h3>Feature Four</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--About-->
+<section class="bg-light text-center">
+  <div class="container">
+    <div class="row">
+      <div class="m-1">
+        <h3>Why this product</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus recusandae perferendis quod exercitationem et impedit reprehenderit nulla ratione consequuntur, necessitatibus obcaecati mollitia quidem, aliquam, esse ut laborum rem repudiandae voluptatum expedita distinctio accusamus ad? Placeat ullam libero optio et mollitia amet atque, vero nam eum accusamus quasi exercitationem eligendi quas!</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!--Accordion-->
+<section class="container text-center p-5">
+  <div class="accordion" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Question One
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Question Two
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Question three
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingFour">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+          Question Four
+        </button>
+      </h2>
+      <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--TEAM-->
+<section class="team text-center">
+  <div class="container p-5">
+    <h1 class="text-white">Team</h1>
+    <p class="text-white">Lorem, ipsum dolor sit amt consectetur adipisicing elit. Voluptates unde excepturi voluptate rerum odio distinctio, suscipit nesciunt delectus tenetur in.</p>
+    <div class="row">
+      <!--Member-->
+      <div class="col-md-6 p-2">
+        <div class="card">
+          <div class="card-body">
+            <img src="img/york.jpg" class="img-fluid rounded-circle w-50" alt="Person One">
+            <h1>York</h1>
+            <p>Compositor y creador de la banda desde 2006</p>
+            <div class="d-flex flex-row justify-content-center">
+              <div class="p-4">
+                <a href="https://www.facebook.com/sinmiraratrasofficial"><i class="fa-brands fa-facebook pe-5"></i></a>
+                <a href="https://www.youtube.com/channel/UCs_B42bS5usq8SPEpVz8BgA"><i class="fa-brands fa-youtube pe-5"></i></a>
+                <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>  
+      </div>
+      <div class="col-md-6 p-2">
+        <div class="card">
+          <div class="card-body">
+            <img src="img/alice.jpg" class="img-fluid rounded-circle w-50" alt="Person One">
+            <h1>Alice</h1>
+            <p>Baterista y pianista del grupo desde el 2021</p>
+            <div class="d-flex flex-row justify-content-center">
+              <div class="p-4">
+                <a href="https://www.facebook.com/sinmiraratrasofficial"><i class="fa-brands fa-facebook pe-5"></i></a>
+                <a href="https://www.youtube.com/channel/UCs_B42bS5usq8SPEpVz8BgA"><i class="fa-brands fa-youtube pe-5"></i></a>
+                <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>  
+      </div>
+    </div>
+  </div>
+</section>
+<!--Contact-->
+<section class="bg-light py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-9">
+        <h3>Contact Us</h3>
+        <p>For more contracts, call us. </p>
+        <form action="">
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <i class="fa-solid fa-user input-group-text"></i>
+            </div>
+            <input type="text" class="form-control" placeholder="Name">
+          </div>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <i class="fa-solid fa-envelope input-group-text"></i>
+            </div>
+            <input type="email" class="form-control" placeholder="Email">
+          </div>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <i class="fa-solid fa-pencil input-group-text"></i>
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Write your message" class="form-control"></textarea>
+          </div>
+          <button class="btn btn-primary  btn-lg btn-block">
+            Send Your Message
+          </button>
+        </form>
+      </div>
+      <div class="col-lg-3">
+        <img src="img/sma.jpg" alt="" class="logo2 d-md-block d-none image-fluid">
+      </div>
+    </div>
+  </div>
+</section>
+<footer>
+  <div class="container p-3 text-white text-center">
+    <p>Copyright© 2022</p>
+  </div>
+</footer>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
 </html>
